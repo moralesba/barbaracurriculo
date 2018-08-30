@@ -1,0 +1,408 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:700);
+* 
+    {margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-align: center;}
+     /*font-family: 'Handlee'
+     font-family: 'PT Sans', sans-serif;*/
+
+body
+    {background-image: url("bg.jpg");
+     font-size: 10px;
+     font-family: 'Handlee';
+     padding: 3em}
+
+main 
+    {background: white;
+    border: 3px solid #9c9c9c;
+    border-top: none;
+    box-shadow: 2px 2px 2px #bbb}
+
+.break-line 
+    {background: #707070;
+    display: block;
+    height: .7px;
+    width: 80%;
+    margin-left: 3em}
+
+.break-line2
+    {background: #707070;
+    display: block;
+    height: .8px;
+    margin-left: 8em;
+    margin-right: 8em}
+
+.flex-container 
+    {display: flex}
+
+.flex-container > * 
+    {flex: 1}
+
+#left
+    {flex-basis: 300px;
+    flex-grow: 0;
+    flex: 1;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-right: .7px solid #707070}
+
+#middle 
+    {flex-grow: 0;
+     flex-basis: 500px;
+     flex: 2;
+     align-items: center;
+     justify-content: center}
+
+#right
+    {flex-basis: 300px;
+     flex-grow: 0;
+     flex: 1;
+     margin-top: 4em;
+     border-left: .7px solid #707070;}
+
+.name
+    {font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 6em;
+    color: #707070;
+    font-weight: 500;
+    margin-top: 0.5em;
+    margin-right: 3.5em;
+    background-image: none;
+    justify-content: center;}
+
+.name2
+    {font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: #707070;
+    font-weight: 500;
+    margin-top: 0.5em;
+    margin-right: 9em;
+    background-image: none;
+    justify-content: center;}
+
+.foto-perfil img
+    {border-radius: 50%;
+    width: 12%;
+    border: 1.5px solid #999999;
+    float: left;
+    margin-left: 10em;
+    margin-top: 2em}
+
+.titulos
+    {text-transform: uppercase;
+     color: #ff94a6;
+     margin-bottom: .2em;
+     font-size: 1.6em;
+     font-weight: 700}
+
+.titulos2
+    {text-transform: uppercase;
+     color: #ff94a6;
+     margin-bottom: .2em;
+     font-size: 1.6em;
+     font-weight: 700;
+     margin-top: 2.5em;}
+
+.titulos3
+    {text-transform: uppercase;
+     color: #ff94a6;
+     margin-bottom: .2em;
+     font-size: 1.6em;
+     font-weight: 700;
+     margin-top: 2.5em;}
+
+hr
+    {width: 24em;
+     height: 1px;
+     padding: 2em;
+     color: #999999;
+     background-color: #999999}
+
+h3
+    {font-family: 'Open Sans', sans-serif;
+     color: #707070}
+
+.icon p
+    {font-family: 'Open Sans', sans-serif;
+     color: #999999;
+     margin-left: 4em}
+
+.sobre-mim
+    {font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    margin-top: 1em;
+    width: 75%;
+    text-align: justify;
+    line-height: 2.5;
+    margin-left: 4em}
+
+.icon
+    {color: #ff94a6;
+     height: 1em;
+     margin-left: 4em;
+     padding: 1.5em;
+    display: flex}
+    
+      
+.social-media
+    {color: #ff94a6;
+     font-size: 2em;
+     margin-top: 3em;
+     display: flex;
+     justify-content: space-evenly}
+
+.social-media2
+    {color: #ff94a6;
+     font-size: 2em;
+     margin-top: 1em;
+     display: flex;
+     justify-content: space-evenly}
+
+
+#container 
+     {position: relative;
+     height: 200px;
+     width: 100%;
+     overflow: hidden;
+     background-color: pink;
+     overflow: hidden;
+     border: 3px solid #9c9c9c;
+    border-bottom: none;
+    box-shadow: 2px 2px 2px #bbb}
+    
+#container:before 
+   {right: -23vw;
+    margin-top: 13em;
+    content: '';
+    position: absolute;
+    top: 20px;
+    width: 104%;
+    height: 445%;
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: rotate(-19deg)}
+
+.timeline img
+    {width: 51em}
+
+.hab
+    {display: flex;
+    justify-content: space-between;
+    margin-left: 9em;
+    margin-right: 9.3em;
+    margin-top: 1em}
+
+.hab p
+    {font-family: 'Open Sans', sans-serif;
+    color: #999999;
+    text-align: justify;
+    line-height: 2}
+
+.tml 
+    {color: #999999;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 13em;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 6em;
+    margin-top: 4.5em;}
+
+.tml2 
+    {color: #999999;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 23.5em;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 16.7em;
+    margin-bottom: 5em}
+
+.dot 
+    {height: 1.2em;
+    width: 1.2em;
+    background-color: #ff94a6;
+    border-radius: 50%;
+    display: inline-block}
+
+.dot2
+    {height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #bbb}
+
+ .ta-left
+    {text-align: left;
+     justify-content: center;
+     font-family: 'Open Sans', sans-serif;
+     color: #999999;
+     padding: 1em;
+     margin-left: 4em}
+
+.idiomas
+    {display: flex;
+     justify-content: left;}
+ 
+.en 
+   {margin-right: 8.4em}
+
+.pt
+   {margin-right: 6.4em}
+
+.es
+   {margin-right: 6.8em;}
+
+
+    /**/
+.set-size 
+  {margin-left: 4em}
+  
+.charts-container:after 
+   {clear: both;
+   content: "";
+   display: flex;
+   flex-direction: row;
+   margin-left: 4em}
+
+   .pie-wrapper 
+    {height: 6em;
+    width: 6em;
+    float: left;
+    margin: 15px;
+    position: relative;
+    text-align: center}
+
+.pie-wrapper:nth-child(3n+1) 
+    {clear: both}
+
+.pie-wrapper .pie 
+    {height: 100%;
+    width: 100%;
+    clip: rect(0, 1em, 1em, 0.5em);
+    left: 0;
+    position: absolute;
+    top: 0}
+
+.pie-wrapper .pie .half-circle 
+    {height: 87%;
+    width: 87%;
+    border: 2px solid #ff94a6;
+    border-radius: 50%;
+    clip: rect(0, 60px, 20px, 0);
+    left: 5px;
+    position: absolute;
+    top: 4px;}
+
+.half-circle-2
+    {height: 87%;
+    width: 87%;
+    border: 2px solid #ff94a6;
+    border-radius: 50%;
+    clip: rect(0, 60px, 36px, 0);
+    left: 5px;
+    position: absolute;
+    top: 4px;}
+
+.half-circle-3
+    {height: 87%;
+    width: 87%;
+    border: 2px solid #ff94a6;
+    border-radius: 50%;
+    clip: rect(0, 60px, 10px, 0);
+    left: 5px;
+    position: absolute;
+    top: 4px;}
+
+.half-circle4
+    {height: 87%;
+    width: 87%;
+    border: 2px solid #ff94a6;
+    border-radius: 50%;
+    clip: rect(0, 60px, 40px, 0);
+    left: 5px;
+    position: absolute;
+    top: 4px;}
+
+.pie-wrapper .label 
+    {background: #e6e5e5;
+    border-radius: 50%;
+    bottom: 6px;
+    color: #707070;
+    cursor: default;
+    display: block;
+    font-size: 1.1em;
+    left: 6px;
+    line-height: 43px;
+    position: absolute;
+    right: 0.4em;
+    text-align: center;
+    top: 6px}
+
+.pie-wrapper .label .smaller 
+    {font-size: 1em}
+
+.pie-wrapper .shadow 
+    {height: 100%;
+    width: 100%;
+    border: 0.1em solid #ff94a6;
+    border-radius: 50%}
+    
+.pie-wrapper.progress-60 .pie 
+    {clip: rect(auto, auto, auto, auto)}
+
+.pie-wrapper.progress-60 .pie .right-side 
+    {-webkit-transform: rotate(180deg);
+    transform: rotate(180deg)}
+
+.pie-wrapper.progress-60 .pie .half-circle 
+    {border-color: #ff94a6}
+    
+.pie-wrapper.progress-60 .pie .left-side 
+    {-webkit-transform: rotate(216deg);
+    transform: rotate(216deg)}
+    
+.pie-wrapper--solid 
+    {border-radius: 50%;
+    overflow: hidden}
+
+.pie-wrapper--solid:before 
+    {border-radius: 0 100% 100% 0%;
+    content: '';
+    display: block;
+    height: 100%;
+    margin-left: 50%;
+    -webkit-transform-origin: left;
+    transform-origin: left}
+
+.pie-wrapper--solid .label 
+    {background: transparent}
+
+.pie-wrapper--solid.progress-65 {
+    background: linear-gradient(to right, #e67e22 50%, #34495e 50%);}
+
+.pie-wrapper--solid.progress-65:before 
+    {background: #e67e22;
+    -webkit-transform: rotate(126deg);
+    transform: rotate(126deg)}
+
+.pie-wrapper--solid.progress-25 
+    {background: linear-gradient(to right, #9b59b6 50%, #34495e 50%);}
+
+.pie-wrapper--solid.progress-25:before 
+    {background: #34495e;
+    -webkit-transform: rotate(-270deg);
+    transform: rotate(-270deg)}
+
+.pie-wrapper--solid.progress-88 
+    {background: linear-gradient(to right, #3498db 50%, #34495e 50%);}
+
+.pie-wrapper--solid.progress-88:before 
+    {background: #3498db;
+    -webkit-transform: rotate(43.2deg);
+    transform: rotate(43.2deg)}
+
+    
+
+
+    
